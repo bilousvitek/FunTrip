@@ -1,0 +1,206 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2015-04-04 19:59:57 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: cart ~ APPPATH\classes\Controller\Ajax.php [ 28 ] in Z:\home\trip\www\application\classes\Controller\Ajax.php:28
+2015-04-04 19:59:57 --- DEBUG: #0 Z:\home\trip\www\application\classes\Controller\Ajax.php(28): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\trip\ww...', 28, Array)
+#1 Z:\home\trip\www\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getTrip()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\trip\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Ajax))
+#4 Z:\home\trip\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\trip\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\trip\www\index.php(118): Kohana_Request->execute()
+#7 {main} in Z:\home\trip\www\application\classes\Controller\Ajax.php:28
+2015-04-04 20:02:11 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: cart ~ APPPATH\classes\Controller\Ajax.php [ 28 ] in Z:\home\trip\www\application\classes\Controller\Ajax.php:28
+2015-04-04 20:02:11 --- DEBUG: #0 Z:\home\trip\www\application\classes\Controller\Ajax.php(28): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\trip\ww...', 28, Array)
+#1 Z:\home\trip\www\system\classes\Kohana\Controller.php(84): Controller_Ajax->action_getTrip()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\trip\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Ajax))
+#4 Z:\home\trip\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\trip\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\trip\www\index.php(118): Kohana_Request->execute()
+#7 {main} in Z:\home\trip\www\application\classes\Controller\Ajax.php:28
+2015-04-04 20:37:54 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected ';' ~ APPPATH\classes\Controller\User.php [ 17 ] in file:line
+2015-04-04 20:37:54 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2015-04-04 20:38:04 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected T_OBJECT_OPERATOR ~ APPPATH\classes\Controller\User.php [ 17 ] in file:line
+2015-04-04 20:38:04 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2015-04-04 20:41:33 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: trip ~ APPPATH\classes\Controller\User.php [ 19 ] in Z:\home\trip\www\application\classes\Controller\User.php:19
+2015-04-04 20:41:33 --- DEBUG: #0 Z:\home\trip\www\application\classes\Controller\User.php(19): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\trip\ww...', 19, Array)
+#1 Z:\home\trip\www\system\classes\Kohana\Controller.php(84): Controller_User->action_myTrip()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\trip\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#4 Z:\home\trip\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\trip\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\trip\www\index.php(118): Kohana_Request->execute()
+#7 {main} in Z:\home\trip\www\application\classes\Controller\User.php:19
+2015-04-04 20:41:51 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: user ~ APPPATH\classes\Controller\User.php [ 19 ] in Z:\home\trip\www\application\classes\Controller\User.php:19
+2015-04-04 20:41:51 --- DEBUG: #0 Z:\home\trip\www\application\classes\Controller\User.php(19): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\trip\ww...', 19, Array)
+#1 Z:\home\trip\www\system\classes\Kohana\Controller.php(84): Controller_User->action_myTrip()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\trip\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#4 Z:\home\trip\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\trip\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\trip\www\index.php(118): Kohana_Request->execute()
+#7 {main} in Z:\home\trip\www\application\classes\Controller\User.php:19
+2015-04-04 20:42:10 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: user ~ APPPATH\classes\Controller\User.php [ 19 ] in Z:\home\trip\www\application\classes\Controller\User.php:19
+2015-04-04 20:42:10 --- DEBUG: #0 Z:\home\trip\www\application\classes\Controller\User.php(19): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\trip\ww...', 19, Array)
+#1 Z:\home\trip\www\system\classes\Kohana\Controller.php(84): Controller_User->action_myTrip()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\trip\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#4 Z:\home\trip\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\trip\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\trip\www\index.php(118): Kohana_Request->execute()
+#7 {main} in Z:\home\trip\www\application\classes\Controller\User.php:19
+2015-04-04 21:09:30 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: info ~ APPPATH\views\user\mytrip.php [ 13 ] in Z:\home\trip\www\application\views\user\mytrip.php:13
+2015-04-04 21:09:30 --- DEBUG: #0 Z:\home\trip\www\application\views\user\mytrip.php(13): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\trip\ww...', 13, Array)
+#1 Z:\home\trip\www\system\classes\Kohana\View.php(61): include('Z:\home\trip\ww...')
+#2 Z:\home\trip\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\trip\ww...', Array)
+#3 Z:\home\trip\www\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 Z:\home\trip\www\application\views\static\usercom.php(82): Kohana_View->__toString()
+#5 Z:\home\trip\www\system\classes\Kohana\View.php(61): include('Z:\home\trip\ww...')
+#6 Z:\home\trip\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\trip\ww...', Array)
+#7 Z:\home\trip\www\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 Z:\home\trip\www\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 Z:\home\trip\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#11 Z:\home\trip\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 Z:\home\trip\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#13 Z:\home\trip\www\index.php(118): Kohana_Request->execute()
+#14 {main} in Z:\home\trip\www\application\views\user\mytrip.php:13
+2015-04-04 21:12:50 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: waypoint1 ~ APPPATH\views\user\mytrip.php [ 12 ] in Z:\home\trip\www\application\views\user\mytrip.php:12
+2015-04-04 21:12:50 --- DEBUG: #0 Z:\home\trip\www\application\views\user\mytrip.php(12): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\trip\ww...', 12, Array)
+#1 Z:\home\trip\www\system\classes\Kohana\View.php(61): include('Z:\home\trip\ww...')
+#2 Z:\home\trip\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\trip\ww...', Array)
+#3 Z:\home\trip\www\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 Z:\home\trip\www\application\views\static\usercom.php(82): Kohana_View->__toString()
+#5 Z:\home\trip\www\system\classes\Kohana\View.php(61): include('Z:\home\trip\ww...')
+#6 Z:\home\trip\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\trip\ww...', Array)
+#7 Z:\home\trip\www\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 Z:\home\trip\www\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 Z:\home\trip\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#11 Z:\home\trip\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 Z:\home\trip\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#13 Z:\home\trip\www\index.php(118): Kohana_Request->execute()
+#14 {main} in Z:\home\trip\www\application\views\user\mytrip.php:12
+2015-04-04 21:13:20 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: info ~ APPPATH\views\user\mytrip.php [ 13 ] in Z:\home\trip\www\application\views\user\mytrip.php:13
+2015-04-04 21:13:20 --- DEBUG: #0 Z:\home\trip\www\application\views\user\mytrip.php(13): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\trip\ww...', 13, Array)
+#1 Z:\home\trip\www\system\classes\Kohana\View.php(61): include('Z:\home\trip\ww...')
+#2 Z:\home\trip\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\trip\ww...', Array)
+#3 Z:\home\trip\www\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 Z:\home\trip\www\application\views\static\usercom.php(82): Kohana_View->__toString()
+#5 Z:\home\trip\www\system\classes\Kohana\View.php(61): include('Z:\home\trip\ww...')
+#6 Z:\home\trip\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\trip\ww...', Array)
+#7 Z:\home\trip\www\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 Z:\home\trip\www\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 Z:\home\trip\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#11 Z:\home\trip\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 Z:\home\trip\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#13 Z:\home\trip\www\index.php(118): Kohana_Request->execute()
+#14 {main} in Z:\home\trip\www\application\views\user\mytrip.php:13
+2015-04-04 21:26:45 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: info ~ APPPATH\views\user\mytrip.php [ 13 ] in Z:\home\trip\www\application\views\user\mytrip.php:13
+2015-04-04 21:26:45 --- DEBUG: #0 Z:\home\trip\www\application\views\user\mytrip.php(13): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\trip\ww...', 13, Array)
+#1 Z:\home\trip\www\system\classes\Kohana\View.php(61): include('Z:\home\trip\ww...')
+#2 Z:\home\trip\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\trip\ww...', Array)
+#3 Z:\home\trip\www\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 Z:\home\trip\www\application\views\static\usercom.php(82): Kohana_View->__toString()
+#5 Z:\home\trip\www\system\classes\Kohana\View.php(61): include('Z:\home\trip\ww...')
+#6 Z:\home\trip\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\trip\ww...', Array)
+#7 Z:\home\trip\www\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 Z:\home\trip\www\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 Z:\home\trip\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#11 Z:\home\trip\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 Z:\home\trip\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#13 Z:\home\trip\www\index.php(118): Kohana_Request->execute()
+#14 {main} in Z:\home\trip\www\application\views\user\mytrip.php:13
+2015-04-04 21:27:53 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: waypoint1 ~ APPPATH\views\user\mytrip.php [ 12 ] in Z:\home\trip\www\application\views\user\mytrip.php:12
+2015-04-04 21:27:53 --- DEBUG: #0 Z:\home\trip\www\application\views\user\mytrip.php(12): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\trip\ww...', 12, Array)
+#1 Z:\home\trip\www\system\classes\Kohana\View.php(61): include('Z:\home\trip\ww...')
+#2 Z:\home\trip\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\trip\ww...', Array)
+#3 Z:\home\trip\www\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 Z:\home\trip\www\application\views\static\usercom.php(82): Kohana_View->__toString()
+#5 Z:\home\trip\www\system\classes\Kohana\View.php(61): include('Z:\home\trip\ww...')
+#6 Z:\home\trip\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\trip\ww...', Array)
+#7 Z:\home\trip\www\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 Z:\home\trip\www\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 Z:\home\trip\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#11 Z:\home\trip\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 Z:\home\trip\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#13 Z:\home\trip\www\index.php(118): Kohana_Request->execute()
+#14 {main} in Z:\home\trip\www\application\views\user\mytrip.php:12
+2015-04-04 21:35:29 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: waypoint1 ~ APPPATH\views\user\mytrip.php [ 12 ] in Z:\home\trip\www\application\views\user\mytrip.php:12
+2015-04-04 21:35:29 --- DEBUG: #0 Z:\home\trip\www\application\views\user\mytrip.php(12): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\trip\ww...', 12, Array)
+#1 Z:\home\trip\www\system\classes\Kohana\View.php(61): include('Z:\home\trip\ww...')
+#2 Z:\home\trip\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\trip\ww...', Array)
+#3 Z:\home\trip\www\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 Z:\home\trip\www\application\views\static\usercom.php(82): Kohana_View->__toString()
+#5 Z:\home\trip\www\system\classes\Kohana\View.php(61): include('Z:\home\trip\ww...')
+#6 Z:\home\trip\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\trip\ww...', Array)
+#7 Z:\home\trip\www\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 Z:\home\trip\www\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 Z:\home\trip\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#11 Z:\home\trip\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 Z:\home\trip\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#13 Z:\home\trip\www\index.php(118): Kohana_Request->execute()
+#14 {main} in Z:\home\trip\www\application\views\user\mytrip.php:12
+2015-04-04 21:35:47 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: info ~ APPPATH\views\user\mytrip.php [ 13 ] in Z:\home\trip\www\application\views\user\mytrip.php:13
+2015-04-04 21:35:47 --- DEBUG: #0 Z:\home\trip\www\application\views\user\mytrip.php(13): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\trip\ww...', 13, Array)
+#1 Z:\home\trip\www\system\classes\Kohana\View.php(61): include('Z:\home\trip\ww...')
+#2 Z:\home\trip\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\trip\ww...', Array)
+#3 Z:\home\trip\www\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 Z:\home\trip\www\application\views\static\usercom.php(82): Kohana_View->__toString()
+#5 Z:\home\trip\www\system\classes\Kohana\View.php(61): include('Z:\home\trip\ww...')
+#6 Z:\home\trip\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\trip\ww...', Array)
+#7 Z:\home\trip\www\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 Z:\home\trip\www\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 Z:\home\trip\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#11 Z:\home\trip\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 Z:\home\trip\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#13 Z:\home\trip\www\index.php(118): Kohana_Request->execute()
+#14 {main} in Z:\home\trip\www\application\views\user\mytrip.php:13
+2015-04-04 21:35:59 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: info ~ APPPATH\views\user\mytrip.php [ 13 ] in Z:\home\trip\www\application\views\user\mytrip.php:13
+2015-04-04 21:35:59 --- DEBUG: #0 Z:\home\trip\www\application\views\user\mytrip.php(13): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\trip\ww...', 13, Array)
+#1 Z:\home\trip\www\system\classes\Kohana\View.php(61): include('Z:\home\trip\ww...')
+#2 Z:\home\trip\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\trip\ww...', Array)
+#3 Z:\home\trip\www\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 Z:\home\trip\www\application\views\static\usercom.php(82): Kohana_View->__toString()
+#5 Z:\home\trip\www\system\classes\Kohana\View.php(61): include('Z:\home\trip\ww...')
+#6 Z:\home\trip\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\trip\ww...', Array)
+#7 Z:\home\trip\www\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 Z:\home\trip\www\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 Z:\home\trip\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#11 Z:\home\trip\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 Z:\home\trip\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#13 Z:\home\trip\www\index.php(118): Kohana_Request->execute()
+#14 {main} in Z:\home\trip\www\application\views\user\mytrip.php:13
+2015-04-04 21:37:04 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: info ~ APPPATH\views\user\mytrip.php [ 12 ] in Z:\home\trip\www\application\views\user\mytrip.php:12
+2015-04-04 21:37:04 --- DEBUG: #0 Z:\home\trip\www\application\views\user\mytrip.php(12): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\trip\ww...', 12, Array)
+#1 Z:\home\trip\www\system\classes\Kohana\View.php(61): include('Z:\home\trip\ww...')
+#2 Z:\home\trip\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\trip\ww...', Array)
+#3 Z:\home\trip\www\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 Z:\home\trip\www\application\views\static\usercom.php(82): Kohana_View->__toString()
+#5 Z:\home\trip\www\system\classes\Kohana\View.php(61): include('Z:\home\trip\ww...')
+#6 Z:\home\trip\www\system\classes\Kohana\View.php(348): Kohana_View::capture('Z:\home\trip\ww...', Array)
+#7 Z:\home\trip\www\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 Z:\home\trip\www\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 Z:\home\trip\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#11 Z:\home\trip\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 Z:\home\trip\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#13 Z:\home\trip\www\index.php(118): Kohana_Request->execute()
+#14 {main} in Z:\home\trip\www\application\views\user\mytrip.php:12
+2015-04-04 21:41:06 --- CRITICAL: ErrorException [ 1 ]: Using $this when not in object context ~ APPPATH\views\user\mytrip.php [ 12 ] in file:line
+2015-04-04 21:41:06 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2015-04-04 21:48:04 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected T_DOUBLE_ARROW ~ APPPATH\views\user\mytrip.php [ 23 ] in file:line
+2015-04-04 21:48:04 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2015-04-04 21:48:17 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected ')' ~ APPPATH\views\user\mytrip.php [ 32 ] in file:line
+2015-04-04 21:48:17 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line

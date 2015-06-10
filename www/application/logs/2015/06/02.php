@@ -1,0 +1,167 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2015-06-02 18:07:04 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: role ~ APPPATH\classes\Controller\Registr.php [ 79 ] in Z:\home\localhost\www\application\classes\Controller\Registr.php:79
+2015-06-02 18:07:04 --- DEBUG: #0 Z:\home\localhost\www\application\classes\Controller\Registr.php(79): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\localho...', 79, Array)
+#1 Z:\home\localhost\www\system\classes\Kohana\Controller.php(84): Controller_Registr->action_network()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\localhost\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Registr))
+#4 Z:\home\localhost\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\localhost\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\localhost\www\index.php(118): Kohana_Request->execute()
+#7 {main} in Z:\home\localhost\www\application\classes\Controller\Registr.php:79
+2015-06-02 18:09:43 --- CRITICAL: Database_Exception [ 1062 ]: Duplicate entry '2147483647' for key 'PRIMARY' [ INSERT INTO `users` (`id`, `firstname`, `lastname`, `mail`, `accesses`) VALUES ('371097026418779', 'Viktor', 'Bilous', 'bilousvitek@gmail.com', 2) ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php:251
+2015-06-02 18:09:43 --- DEBUG: #0 Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(2, 'INSERT INTO `us...', false, Array)
+#1 Z:\home\localhost\www\modules\orm\classes\Kohana\ORM.php(1324): Kohana_Database_Query->execute(Object(Database_MySQL))
+#2 Z:\home\localhost\www\modules\orm\classes\Kohana\ORM.php(1421): Kohana_ORM->create(NULL)
+#3 Z:\home\localhost\www\application\classes\Controller\Registr.php(83): Kohana_ORM->save()
+#4 Z:\home\localhost\www\system\classes\Kohana\Controller.php(84): Controller_Registr->action_network()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\localhost\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Registr))
+#7 Z:\home\localhost\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\localhost\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\localhost\www\index.php(118): Kohana_Request->execute()
+#10 {main} in Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php:251
+2015-06-02 18:12:46 --- CRITICAL: Database_Exception [ 1062 ]: Duplicate entry '2147483647' for key 'PRIMARY' [ INSERT INTO `users` (`id`, `firstname`, `lastname`, `mail`, `accesses`) VALUES ('371097026418779', 'Viktor', 'Bilous', 'bilousvitek@gmail.com', 2) ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php:251
+2015-06-02 18:12:46 --- DEBUG: #0 Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(2, 'INSERT INTO `us...', false, Array)
+#1 Z:\home\localhost\www\modules\orm\classes\Kohana\ORM.php(1324): Kohana_Database_Query->execute(Object(Database_MySQL))
+#2 Z:\home\localhost\www\modules\orm\classes\Kohana\ORM.php(1421): Kohana_ORM->create(NULL)
+#3 Z:\home\localhost\www\application\classes\Controller\Registr.php(92): Kohana_ORM->save()
+#4 Z:\home\localhost\www\system\classes\Kohana\Controller.php(84): Controller_Registr->action_network()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\localhost\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Registr))
+#7 Z:\home\localhost\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\localhost\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\localhost\www\index.php(118): Kohana_Request->execute()
+#10 {main} in Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php:251
+2015-06-02 18:20:55 --- CRITICAL: Database_Exception [ 1062 ]: Duplicate entry '2147483647' for key 'PRIMARY' [ INSERT INTO `users` (`id`, `firstname`, `lastname`, `mail`, `confirm`, `accesses`) VALUES ('371097026418779', 'Viktor', 'Bilous', 'bilousvitek@gmail.com', 1, 2) ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php:251
+2015-06-02 18:20:55 --- DEBUG: #0 Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(2, 'INSERT INTO `us...', false, Array)
+#1 Z:\home\localhost\www\modules\orm\classes\Kohana\ORM.php(1324): Kohana_Database_Query->execute(Object(Database_MySQL))
+#2 Z:\home\localhost\www\modules\orm\classes\Kohana\ORM.php(1421): Kohana_ORM->create(NULL)
+#3 Z:\home\localhost\www\application\classes\Controller\Registr.php(92): Kohana_ORM->save()
+#4 Z:\home\localhost\www\system\classes\Kohana\Controller.php(84): Controller_Registr->action_network()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\localhost\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Registr))
+#7 Z:\home\localhost\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\localhost\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\localhost\www\index.php(118): Kohana_Request->execute()
+#10 {main} in Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php:251
+2015-06-02 18:22:01 --- CRITICAL: Database_Exception [ 1062 ]: Duplicate entry '2147483647' for key 'PRIMARY' [ INSERT INTO `users` (`id`, `firstname`, `lastname`, `mail`, `confirm`, `accesses`) VALUES ('371097026418779', 'Viktor', 'Bilous', 'bilousvitek@gmail.com', 1, 2) ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php:251
+2015-06-02 18:22:01 --- DEBUG: #0 Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(2, 'INSERT INTO `us...', false, Array)
+#1 Z:\home\localhost\www\modules\orm\classes\Kohana\ORM.php(1324): Kohana_Database_Query->execute(Object(Database_MySQL))
+#2 Z:\home\localhost\www\modules\orm\classes\Kohana\ORM.php(1421): Kohana_ORM->create(NULL)
+#3 Z:\home\localhost\www\application\classes\Controller\Registr.php(92): Kohana_ORM->save()
+#4 Z:\home\localhost\www\system\classes\Kohana\Controller.php(84): Controller_Registr->action_network()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\localhost\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Registr))
+#7 Z:\home\localhost\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\localhost\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\localhost\www\index.php(118): Kohana_Request->execute()
+#10 {main} in Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php:251
+2015-06-02 18:22:46 --- CRITICAL: Database_Exception [ 1062 ]: Duplicate entry '2147483647' for key 'PRIMARY' [ INSERT INTO `users` (`id`, `firstname`, `lastname`, `mail`, `confirm`, `accesses`) VALUES ('371097026418779', 'Viktor', 'Bilous', 'bilousvitek@gmail.com', 1, 2) ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php:251
+2015-06-02 18:22:46 --- DEBUG: #0 Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(2, 'INSERT INTO `us...', false, Array)
+#1 Z:\home\localhost\www\modules\orm\classes\Kohana\ORM.php(1324): Kohana_Database_Query->execute(Object(Database_MySQL))
+#2 Z:\home\localhost\www\modules\orm\classes\Kohana\ORM.php(1421): Kohana_ORM->create(NULL)
+#3 Z:\home\localhost\www\application\classes\Controller\Registr.php(92): Kohana_ORM->save()
+#4 Z:\home\localhost\www\system\classes\Kohana\Controller.php(84): Controller_Registr->action_network()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\localhost\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Registr))
+#7 Z:\home\localhost\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\localhost\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\localhost\www\index.php(118): Kohana_Request->execute()
+#10 {main} in Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php:251
+2015-06-02 18:25:18 --- CRITICAL: Database_Exception [ 1062 ]: Duplicate entry '2147483647' for key 'PRIMARY' [ INSERT INTO `users` (`id`, `firstname`, `lastname`, `mail`, `confirm`, `accesses`) VALUES ('371097026418779', 'Viktor', 'Bilous', 'bilousvitek@gmail.com', 1, 2) ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php:251
+2015-06-02 18:25:18 --- DEBUG: #0 Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(2, 'INSERT INTO `us...', false, Array)
+#1 Z:\home\localhost\www\modules\orm\classes\Kohana\ORM.php(1324): Kohana_Database_Query->execute(Object(Database_MySQL))
+#2 Z:\home\localhost\www\modules\orm\classes\Kohana\ORM.php(1421): Kohana_ORM->create(NULL)
+#3 Z:\home\localhost\www\application\classes\Controller\Registr.php(93): Kohana_ORM->save()
+#4 Z:\home\localhost\www\system\classes\Kohana\Controller.php(84): Controller_Registr->action_network()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\localhost\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Registr))
+#7 Z:\home\localhost\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\localhost\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\localhost\www\index.php(118): Kohana_Request->execute()
+#10 {main} in Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php:251
+2015-06-02 18:32:28 --- CRITICAL: Database_Exception [ 1062 ]: Duplicate entry '2147483647' for key 'PRIMARY' [ INSERT INTO `users` (`id`, `firstname`, `lastname`, `mail`, `confirm`, `accesses`) VALUES ('371097026418779', 'Viktor', 'Bilous', 'bilousvitek@gmail.com', 1, 2) ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php:251
+2015-06-02 18:32:28 --- DEBUG: #0 Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(2, 'INSERT INTO `us...', false, Array)
+#1 Z:\home\localhost\www\modules\orm\classes\Kohana\ORM.php(1324): Kohana_Database_Query->execute(Object(Database_MySQL))
+#2 Z:\home\localhost\www\modules\orm\classes\Kohana\ORM.php(1421): Kohana_ORM->create(NULL)
+#3 Z:\home\localhost\www\application\classes\Controller\Registr.php(93): Kohana_ORM->save()
+#4 Z:\home\localhost\www\system\classes\Kohana\Controller.php(84): Controller_Registr->action_network()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\localhost\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Registr))
+#7 Z:\home\localhost\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\localhost\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\localhost\www\index.php(118): Kohana_Request->execute()
+#10 {main} in Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php:251
+2015-06-02 18:33:08 --- CRITICAL: Database_Exception [ 1062 ]: Duplicate entry '2147483647' for key 'PRIMARY' [ INSERT INTO `users` (`id`, `firstname`, `lastname`, `mail`, `confirm`, `accesses`) VALUES ('371097026418779', 'Viktor', 'Bilous', 'bilousvitek@gmail.com', 1, 2) ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php:251
+2015-06-02 18:33:08 --- DEBUG: #0 Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(2, 'INSERT INTO `us...', false, Array)
+#1 Z:\home\localhost\www\modules\orm\classes\Kohana\ORM.php(1324): Kohana_Database_Query->execute(Object(Database_MySQL))
+#2 Z:\home\localhost\www\modules\orm\classes\Kohana\ORM.php(1421): Kohana_ORM->create(NULL)
+#3 Z:\home\localhost\www\application\classes\Controller\Registr.php(93): Kohana_ORM->save()
+#4 Z:\home\localhost\www\system\classes\Kohana\Controller.php(84): Controller_Registr->action_network()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\localhost\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Registr))
+#7 Z:\home\localhost\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\localhost\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\localhost\www\index.php(118): Kohana_Request->execute()
+#10 {main} in Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php:251
+2015-06-02 18:36:18 --- CRITICAL: Database_Exception [ 1062 ]: Duplicate entry '2147483647' for key 'PRIMARY' [ INSERT INTO `users` (`id`, `firstname`, `lastname`, `mail`, `confirm`, `accesses`) VALUES ('371097026418779', 'Viktor', 'Bilous', 'bilousvitek@gmail.com', 1, 2) ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php:251
+2015-06-02 18:36:18 --- DEBUG: #0 Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(2, 'INSERT INTO `us...', false, Array)
+#1 Z:\home\localhost\www\modules\orm\classes\Kohana\ORM.php(1324): Kohana_Database_Query->execute(Object(Database_MySQL))
+#2 Z:\home\localhost\www\modules\orm\classes\Kohana\ORM.php(1421): Kohana_ORM->create(NULL)
+#3 Z:\home\localhost\www\application\classes\Controller\Registr.php(93): Kohana_ORM->save()
+#4 Z:\home\localhost\www\system\classes\Kohana\Controller.php(84): Controller_Registr->action_network()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\localhost\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Registr))
+#7 Z:\home\localhost\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\localhost\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\localhost\www\index.php(118): Kohana_Request->execute()
+#10 {main} in Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php:251
+2015-06-02 18:40:28 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: info ~ APPPATH\classes\Controller\User.php [ 104 ] in Z:\home\localhost\www\application\classes\Controller\User.php:104
+2015-06-02 18:40:28 --- DEBUG: #0 Z:\home\localhost\www\application\classes\Controller\User.php(104): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\localho...', 104, Array)
+#1 Z:\home\localhost\www\system\classes\Kohana\Controller.php(84): Controller_User->action_myTrip()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\localhost\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#4 Z:\home\localhost\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\localhost\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\localhost\www\index.php(118): Kohana_Request->execute()
+#7 {main} in Z:\home\localhost\www\application\classes\Controller\User.php:104
+2015-06-02 18:40:38 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: info ~ APPPATH\classes\Controller\User.php [ 104 ] in Z:\home\localhost\www\application\classes\Controller\User.php:104
+2015-06-02 18:40:38 --- DEBUG: #0 Z:\home\localhost\www\application\classes\Controller\User.php(104): Kohana_Core::error_handler(8, 'Undefined varia...', 'Z:\home\localho...', 104, Array)
+#1 Z:\home\localhost\www\system\classes\Kohana\Controller.php(84): Controller_User->action_myTrip()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\localhost\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#4 Z:\home\localhost\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\localhost\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\localhost\www\index.php(118): Kohana_Request->execute()
+#7 {main} in Z:\home\localhost\www\application\classes\Controller\User.php:104
+2015-06-02 18:49:51 --- CRITICAL: Database_Exception [ 1062 ]: Duplicate entry '2147483647' for key 'PRIMARY' [ INSERT INTO `users` (`id`, `firstname`, `lastname`, `mail`, `confirm`, `accesses`) VALUES ('371097026418779', 'Viktor', 'Bilous', 'bilousvitek@gmail.com', 1, 2) ] ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 194 ] in Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php:251
+2015-06-02 18:49:51 --- DEBUG: #0 Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQL->query(2, 'INSERT INTO `us...', false, Array)
+#1 Z:\home\localhost\www\modules\orm\classes\Kohana\ORM.php(1324): Kohana_Database_Query->execute(Object(Database_MySQL))
+#2 Z:\home\localhost\www\modules\orm\classes\Kohana\ORM.php(1421): Kohana_ORM->create(NULL)
+#3 Z:\home\localhost\www\application\classes\Controller\Registr.php(93): Kohana_ORM->save()
+#4 Z:\home\localhost\www\system\classes\Kohana\Controller.php(84): Controller_Registr->action_network()
+#5 [internal function]: Kohana_Controller->execute()
+#6 Z:\home\localhost\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Registr))
+#7 Z:\home\localhost\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 Z:\home\localhost\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#9 Z:\home\localhost\www\index.php(118): Kohana_Request->execute()
+#10 {main} in Z:\home\localhost\www\modules\database\classes\Kohana\Database\Query.php:251
+2015-06-02 22:42:45 --- CRITICAL: Kohana_Exception [ 0 ]: Cannot delete car model because it is not loaded. ~ MODPATH\orm\classes\Kohana\ORM.php [ 1434 ] in Z:\home\localhost\www\application\classes\Controller\User.php:334
+2015-06-02 22:42:45 --- DEBUG: #0 Z:\home\localhost\www\application\classes\Controller\User.php(334): Kohana_ORM->delete()
+#1 Z:\home\localhost\www\system\classes\Kohana\Controller.php(84): Controller_User->action_deleteCar()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\localhost\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#4 Z:\home\localhost\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\localhost\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\localhost\www\index.php(118): Kohana_Request->execute()
+#7 {main} in Z:\home\localhost\www\application\classes\Controller\User.php:334
+2015-06-02 22:42:52 --- CRITICAL: Kohana_Exception [ 0 ]: Cannot delete car model because it is not loaded. ~ MODPATH\orm\classes\Kohana\ORM.php [ 1434 ] in Z:\home\localhost\www\application\classes\Controller\User.php:334
+2015-06-02 22:42:52 --- DEBUG: #0 Z:\home\localhost\www\application\classes\Controller\User.php(334): Kohana_ORM->delete()
+#1 Z:\home\localhost\www\system\classes\Kohana\Controller.php(84): Controller_User->action_deleteCar()
+#2 [internal function]: Kohana_Controller->execute()
+#3 Z:\home\localhost\www\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#4 Z:\home\localhost\www\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 Z:\home\localhost\www\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#6 Z:\home\localhost\www\index.php(118): Kohana_Request->execute()
+#7 {main} in Z:\home\localhost\www\application\classes\Controller\User.php:334
